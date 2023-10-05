@@ -1,0 +1,285 @@
+#cover-photo-container{
+    background-image: url("assets/elonmusk-cover.jpeg");
+    width: 100%;
+    height: 320px;
+    /* width: 100%; */
+    background-size: cover;
+    /* object-fit: cover; */
+    object-fit: contain;
+    background-repeat:repeat;
+    background-position: center;
+    /* display: block; */
+}
+h5 {
+    margin-top: 5px;
+  
+}
+#header-container{
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+
+.arrow-container{
+    margin-left: 15px;
+    padding-top: 15px;
+}
+.header-content-container{
+    margin-left: 20px;
+}
+#center{
+    width : 80%;
+    margin : auto;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+}
+.tweet-container{
+    border-bottom: 1px solid grey;
+    /* display: flex; */
+}
+.tweets-header{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    margin: 16px 80px;
+    
+}
+
+.tweets-header-title{
+    color:rgb(113, 118, 123);
+    cursor: pointer;
+    font-family:TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+    font-size: 15px;
+    /* font-stretch: 100px; */
+    font-weight: 500;
+    /* height: 53px; */
+    line-height: 20px;
+    text-align: start;
+    /* width: 25%; */
+
+}
+.container-2{
+    margin-left: 18px;
+}
+.underline{
+    
+    border-bottom: 1px solid grey;
+    
+}
+.underline-blue{
+    background-color: rgb(29,155,240);
+    border-radius: 9999px;
+    height:1.5px;
+    width:25%;
+}
+
+
+.header-display-name{
+    font-size: 20px;
+    font-stretch : 100%;
+    font-weight: 700;
+    line-height : 24px;
+    text-align: start;
+    text-overflow: ellipsis;
+    margin: 0px;
+    padding: 0px;
+}
+#tweet-number{
+    font-size: 13px;
+    line-height: 16px;
+    color : rgb(113, 118, 123);
+    font-family:TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+    font-weight: 400;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0px;
+    padding: 0px;
+}
+.user-name{
+    font-size: 15px;
+    font-stretch: 100%;
+    font-weight: 400;
+    line-height: 20px;
+    text-size-adjust: 100%;
+    color: rgb(113, 118, 123);
+    margin: 0px;
+    padding: 0px;
+}
+
+.calendar-icon{  
+ color: rgb(113, 118, 123);
+ vertical-align: text-bottom;
+ height: 1.25em;
+ fill: currentcolor;
+ display: inline-block;
+ font-size: 15px;
+ font-stretch: 100px;
+  font-weight: 400;
+margin-right: 4px;
+}
+.follow-count, .follow{
+  
+  cursor: pointer;
+  display: inline;
+  font-family:TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+  font-size: 14px;
+  line-height: 16px;
+}
+.follow-count{
+    font-weight: 700;
+}
+.follow{
+   font-weight: 400;
+   color:rgb(113, 118, 123)  ;
+}
+.joined-date{
+    color:rgb(113, 118, 123)  ; 
+    font-weight: 400;
+    cursor: pointer;
+    display: inline;
+    font-family:TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; 
+    font-size: 15px;
+    line-height: 12px;
+}
+.twitter-icon{
+    color:  rgb(74, 153, 233);
+    fill: rgb(74, 153, 233);
+    cursor:  pointer;
+    font-size: 20px;
+    font-family:TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-stretch: 100%;
+    font-weight: 700;
+    height: 20px; 
+     line-height: 24px;
+    margin-left: 2px;
+    max-height: 20px;
+    max-width: 20px;
+    text-size-adjust: 100%;
+    display: inline-block;
+    padding-top: 1px;
+   
+}
+
+.profile-pic-at-tweet{
+    /* width: 10%; */
+    display: block;
+    /* background-color: yellow; */
+    margin-top: 15px;
+    /* margin-left: 18px ; */
+    width: 5%;
+    
+}
+
+#profile-details-container{
+    /* margin-left: 18px ; */
+    
+}
+.tweet-content{
+    /* background-color: bisque; */
+    padding: 0px 5px;
+    margin: 0px 10px;
+    width: 90%;
+}
+
+.go-shorty{
+    display: flex;
+}
+.tweet-text{
+    margin: 0px;
+}
+.user-info{
+    margin: 2px 0px;
+    padding: 0px ;
+   
+}
+img{
+    border-radius: 50%;
+}
+
+#profile-pic{
+   
+    display: flex;
+    justify-content: space-between;
+    /* background-color: bisque; */
+}
+.profile-pic-container{
+    margin-top : -30px;
+    margin-left: 20px;
+    
+    /* width: 70px; */
+    /* background-color: red; */
+}
+.feedback{
+    width: 100%;;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+    /* padding-left: 15px; */
+}
+.feeedback-style{
+    color:rgb(113, 118, 123);
+    cursor: pointer;
+    fill: rgb(113, 118, 123);
+    font-size: 15px;
+    font-stretch: 100%;
+    font-weight: 400;
+    height: 18.75px;
+    line-height: 20px;
+    max-width: 100%;
+    width: 18.75px;
+   
+}
+.button-container{
+  display: flex;
+  justify-content: right;
+  /* width: 20%; */
+  /* background-color: yellow; */
+  margin-right: 20px;
+}
+.button {
+    background-color:  rgb(74, 153, 233);
+    color: white;
+    border-radius: 15px;
+    padding: auto 02px;
+    margin-right: 15px;
+    margin-top: 10px;
+    font-weight: 700;
+    line-height: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family:TwitterChirp, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.back-arrow{
+    color : rgb(74, 153, 233);
+    cursor: pointer;
+    fill:rgb(74, 153, 233);
+    font-size: 15px;
+    font-stretch: 100%;
+    font-weight: 700;
+    height: 20px;
+    line-height: 20px;
+    max-width: 100%;
+    width: 20px;
+}
+
+/* Extra small devices (phones, 420px and down) */
+@media only screen and (max-width: 420px) {
+    .tweets-header{
+        /* flex-wrap: wrap; */
+        margin: 16px 10px;
+    }
+    
+    .tweets-header-title{
+        font-size: 12px;
+    }
+    .container-2{
+        margin-left: 8px;
+    }
+    .tweet-content{
+        /* background-color: bisque; */
+        padding: 0px 20px;
+        margin: 0px 25px;
+        width: 90%;
+    }
+}

@@ -1,0 +1,43 @@
+.questions{
+    display: none;
+}
+
+.show-active-questions{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.hide-button {
+    display : none;
+}
+.submit{
+    display:none;
+}
+.hide-question-number{
+    display : none;
+}
+.btn{
+    color: #ffffff;
+    font-size: 17px;
+    background-color: #04AA6D;
+    padding: 12px 30px;
+    border-radius: 5px;
+}
+
+.radiocontainer{
+    position: relative;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 1px;
+    background: #E7E9EB;
+    font: 18px 'Segoe UI', Arial, sans-serif;
+    cursor: pointer;
+    font-size: 18px;
+    user-select: none;
+   
+}
+
+.container{
+    
+    width: 50%;
+    margin: auto;
+}
